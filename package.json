@@ -1,0 +1,30 @@
+{
+    "name": "meta-harvest",
+    "version": "0.1.1",
+    "description": "tiny script tool to remove mac meta data (.DS_Store etc) on specific path or disk",
+    "main": "harvest.js",
+    "bin": "bin.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rehorn/mac-meta-harvest.git"
+    },
+    "keywords": [
+        "mac",
+        "util",
+        "meta",
+        "harvest",
+        "ds_store"
+    ],
+    "author": "rehornchen@tencent.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rehorn/mac-meta-harvest/issues"
+    },
+    "homepage": "https://github.com/rehorn/mac-meta-harvest",
+    "dependencies": {
+        "glob": "^4.0.6"
+    }
+}
